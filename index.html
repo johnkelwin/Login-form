@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+  <div class="form-box">
+    <h1>Login Here</h1>
+    <div class="input-box">
+      <span><i class="fas fa-envelope"></i></span>
+      <input type="email" placeholder="E-mail Id">
+    </div>
+    <div class="input-box">
+      <span><i class="fas fa-key"></i></span>
+      <input type="password" id="password" placeholder="password">
+      <span onclick="toggle()" ><i  id="eye" class="fas fa-eye-slash"></i></span>
+    </div>
+    <div>
+       <button type="submit" class="submit">Submit</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
