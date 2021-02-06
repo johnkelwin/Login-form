@@ -1,3 +1,3 @@
 # Login-form
-Here I build the front-end part of the login form with show/hide option in password.
-<img src="background-1.jpg">
+<h3>Here I build the front-end part of the login form with show/hide option in password.</h3>
+<img src="readme.jpg">
